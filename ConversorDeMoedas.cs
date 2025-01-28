@@ -26,9 +26,7 @@ namespace ConversorDeMoedas
         
         /// Converte um valor de BRL para a moeda desejada.
         
-        /// <param name="valorEmReais">Valor em reais (BRL)</param>
-        /// <param name="moedaDestino">Código da moeda de destino</param>
-        /// <returns>Valor convertido</returns>
+    
         public decimal ConverterPara(decimal valorEmReais, string moedaDestino)
         {
             if (moedas.ContainsKey(moedaDestino))
